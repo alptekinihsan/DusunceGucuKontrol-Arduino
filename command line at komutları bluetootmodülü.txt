@@ -1,0 +1,10 @@
+//HC-05 Modülü İçin Kullanılan AT Komutları:  MindWave Mobile 2 cihazının tanıması için bu komutlar yapılıyor.
+  AT+Name =Dusunce
+  AT+UART =57600,0,0
+  AT+ROLE =1
+  AT+ PSWD AT =0000
+  AT+ CMODE AT =0
+  AT + BIND = 9807,2D,8069BE  (Mindwave Unique Numarası)
+  AT+ IAC =9E8B33 
+  AT+ CLASS =0
+  AT + INQM =1,9,48
